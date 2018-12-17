@@ -1,0 +1,89 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.sect-right .button {
+    float: none;
+	margin: 15px auto;
+	max-width: 250px;
+}
+.sect-left {
+	text-align: center;
+}
+.menu ul {
+	display: none;
+	position: absolute;
+	width: 100%;
+	background-color: #3797bf;
+	max-width: 240px;
+	opacity: 0.9;
+}
+.menu ul li {
+	display: block;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.top-links {
+	display: none;
+	background-color: #585d61;
+	position: absolute;
+	margin-top: 15px;
+	width: 100%;
+	padding: 15px;
+	vertical-align: middle;
+	max-width: 240px;
+	opacity: 0.9;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.top-links {
+	display: inline-block !important;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.menu ul {
+	display: inline-block !important;
+}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
