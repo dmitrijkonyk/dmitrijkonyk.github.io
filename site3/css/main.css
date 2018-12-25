@@ -1,0 +1,213 @@
+/*Общия правила для всех секций*/
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+h3 {
+    font-weight: 400;
+}
+h2 {
+    text-align: center;
+}
+/*Общия правила для первого ряда второй секции
+и первого ряда третей секций*/
+.title {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.title__main {
+    font-size: 32px;
+}
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*Первая секция с классом header*/
+.header {
+    background-color: #fcdb00;
+    color: #010101;
+    padding-top: 58px;
+    padding-bottom: 105px;
+}
+/*Первый ряд первой секции*/
+.menu {
+    margin-top: 10px;
+
+}
+.menu__item {
+    margin: 0 57px;
+
+}
+.menu__item a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+/*Второй ряд первой секции*/
+.offer {
+    margin-top: 117px;
+
+}
+.offer__title {
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+.offer__text {
+    font-size: 16px;
+    margin-top: 16px;
+    color: #555555;
+    width: 350px;
+}
+.icons__item {
+    margin-right: 30px;
+
+}
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    transition: all 0.5s;
+
+}
+.icons__item a:hover {
+    color: #ff4800;
+}
+.ipad {
+    display: block;
+    margin: 60px auto;
+}
+
+
+/*Вторая секция с классом features*/
+
+/*Второй ряд второй секции*/
+.feature {
+    margin-bottom: 65px;
+}
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000;
+}
+.feature__text {
+    color: #898989;
+    text-align: left;
+}
+
+/*Третья секция с классом touch*/
+
+/*Второй ряд третей секции*/
+.touch {
+    background-color: #010101;
+    color: #fff;
+}
+.title__main {
+    color: #fcdb00;
+}
+/*Третий ряд третей секции*/
+.form {
+    text-align: center;
+}
+.form__input {
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 580px;
+    padding: 14px 0;
+    font-family: 'PT Sans', sans-serif;
+    margin-right: 21px;
+    border: 0;
+    padding-left: 23px;
+    outline: none;
+}
+.button__btn {
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    background-color: #fcdb00;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    width: 126px;
+    border-radius: 5px;
+    padding: 14px 0;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+.footer{
+    background-color: #000;
+    padding: 50px 0 94px;
+}
+.credits{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    width: 184px;
+    margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width : 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto 40px;
+    }
+    .offer {
+        text-align: center;
+        margin-top: 80px;
+    }
+    .offer__text {
+        margin: 10px auto;
+        width: auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .title__text {
+        width: auto;
+    }
+    .form__input {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .button__btn {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width : 576px) {
+    .menu {
+        flex-direction: column;  
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .ipad {
+        width: 100%;
+    }
+}
