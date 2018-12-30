@@ -1,0 +1,347 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border: 3px solid red;
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: 3px solid green;
+}
+/*Общие правила*/
+body {
+	font-family: 'Sintony', sans-serif;
+    color: #5c6369;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	color: #14141d;
+}
+p {
+	line-height: 1.8em;
+}
+
+/*Первая секция*/
+/*Первая секция первый ряд*/
+.menu {
+	margin-top: 10px;
+}
+.menu__item a {
+	font-size: 14px;
+	font-weight: 700;
+	color: #2c465a;
+	text-transform: uppercase;
+}
+.cta {
+	font-size: 14px;
+	background-color: #fea100;
+	color: #fff;
+	padding: 13px 0;
+	border-radius: 3px;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+	width: 200px;
+	border: 0;
+    display: block;
+    text-align: center;
+}
+.book_icon {
+	background: url("../img/order.png");
+	width: 21px;
+	height: 17px;
+	display: block;
+	margin-right: 13px;
+}
+.main-header {
+	padding: 24px 0;
+}
+/*Первая секция второй ряд*/
+.offer {
+	background: url("../img/first-bg.jpg") no-repeat center top;
+}
+.title {
+	padding: 210px 0;
+}
+.title__heading {
+	font-size: 56px;
+	color: #fff;
+}
+.title__desc {
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	color: #fff;
+	margin-top: -10px;
+}
+.title__desc span {
+	color: #fea100;
+}
+
+/*Вторая секция*/
+.call {
+	background-color: #edf1f3;
+	border-bottom: 1px solid #dde3e7;
+	padding: 30px 0;
+}
+.phone {
+	width: 455px;
+}
+.phone__text {
+	color: #14141d;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: url("../img/phone.png") no-repeat left center;
+	padding-left: 56px;
+	width: 180px;
+	padding-top: 5px;
+}
+.phone__text span {
+	color: #fea100;
+	display: block;
+	margin-top: -4px;
+}
+.phone__digits {
+	font-size: 32px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	margin-left: 42px;
+	color: #14141d;
+	margin-top: -5px;
+}
+
+/*Третья секция*/
+.about {
+	padding: 65px 0 100px;
+}
+.history {
+	padding-top: 50px;
+}
+.history__title {
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+.history__text {
+	font-size: 14px;
+}
+.history__button {
+	width: 148px;
+	margin-top: 48px;
+}
+.cta:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.food-images-down {
+	margin-top: 50px;
+}
+.food-images__item {
+	margin-bottom: 10px;
+}
+
+/*Четвёртая секция*/
+.special {
+	background: url("../img/third-bg.jpg") no-repeat center top;
+	padding-top: 80px;
+}
+/*Четвёртая секция первый ряд*/
+.special-title {
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+}
+/*Четвёртая секция второй ряд*/
+.food {
+	text-align: center;
+	box-shadow: 0px 20px 90px rgba(0, 0, 0, 0.15);
+	margin-top: 20px;
+	margin-bottom: 130px;
+}
+.food__img {
+	margin-bottom: 45px;
+}
+.food__title {
+	font-size: 26px;
+	margin-bottom: 10px;
+	font-family: 'Playfair Display', serif;
+}
+.food__desc {
+	font-size: 14px;
+	padding: 0 45px;
+}
+.food__details {
+	border-top: 1px solid #e1e1e1;
+	margin: 0 45px;
+	text-align: left;
+	color: #14141d;
+	padding: 19px 0;
+}
+.food__delivary {
+	text-transform: uppercase;
+	font-size: 13px;
+	width: 78px;
+	border-right: 1px solid #e1e1e1;
+	font-weight: 700;
+}
+.food__delivary span {
+	color: #fe4c8d;
+}
+.food__phone {
+	font-size: 26px;
+	font-family: 'Playfair Display', serif;
+	margin-left: 18px;
+	padding-top: 6px;
+}
+.food__price {
+	font-size: 30px;
+	font-family: 'Playfair Display SC', serif;
+	color: #fea100;
+}
+
+/*Пятая секция*/
+.footer {
+	background-color: #373844;
+	color: #93989c;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 72px 106px;
+}
+/*Пятая секция первый ряд*/
+.socials__item a {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	display: block;
+}
+.socials__item_fb a {
+	background: #365998 url("../img/fb.png") no-repeat center center;
+}
+.socials__item_tw a {
+	background: #55acee url("../img/tw.png") no-repeat center center;
+	margin: 0 15px;
+}
+.socials__item_g a {
+	background: #dd4639 url("../img/g.png") no-repeat center center;
+}
+/*Пятая секция второй ряд*/
+.line {
+	height: 1px;
+	background-color: #52535e;
+	margin: 50px 0;
+}
+.credits {
+	text-align: center;
+	margin-top: 40px;
+}
+
+/*Вывод модального окна*/
+.modal1 {
+	display: none;
+}
+/*Слой который перекрывает всю страницу*/
+.modal1__overlay {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+/*Само модальное окно*/
+.modal1__body {
+	width: 400px;
+	height: 200px;
+	background-color: #fff;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	border-radius: 10px;
+	margin-left: -200px;
+	margin-top: -100px;
+}
+.form input[type=text] {
+	display: block;
+	width: 90%;
+	line-height: 24px;
+    margin: 0 auto 12px;
+    border: 3px solid blue;
+}
+.form h3 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	background-color: #fea100;
+}
+.form .order {
+	display: block;
+	margin: 20px auto;
+	background-color: #fea100;
+	border-radius: 5px;
+	width: 50%;
+}
+/*Дополнительный класс*/
+.show {
+	display: block !important;
+}
+
+
+/*Адаптивность*/
+@media only screen and (max-width : 992px) {
+    .logo {
+    	text-align: center;
+    	margin-bottom: 20px;
+    }
+    .menu {
+    	margin-bottom: 25px;
+    }
+    .book {
+    	margin: 0 auto 25px;
+    	width: 220px;
+    }
+    .history {
+    	text-align: center;
+    	padding-top: 0;
+    }
+    .history__text {
+    	margin-bottom: 25px;
+    }
+    .history__button {
+    	margin: 0 auto;
+    	width: 220px;
+    }
+    .food-images {
+    	display: flex;
+    	justify-content: space-around;
+    	margin-bottom: 30px;
+    }
+    .line {
+    	margin: 20px 0;
+    }
+    .credits {
+    	margin-top: 0;
+    }
+    .socials__item_tw a {
+    	margin: 0 25px;
+    }
+}
